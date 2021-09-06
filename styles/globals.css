@@ -1,3 +1,9 @@
+/* INCLUDE */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* END INCLUDE */
+
 html,
 body {
   padding: 0;
@@ -13,4 +19,20 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.font-besley{
+  font-family: 'Besley', serif;
+}
+
+.font-montserrat{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.bg-orange-gruv{
+  background-color: #FF5A00;
+}
+
+.bg-gray-gruv{
+  background-color: #212121;
 }
