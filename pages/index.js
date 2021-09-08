@@ -164,18 +164,59 @@ export default function Home() {
 					</div>
 				</div>
 			</section>
+			<section id="form">
+				<div class="container">
+					<div role="main" id="formulario-lp-digital-9fa49ac25a5a9e347b78"></div><script type="text/javascript" src="https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js"></script><script type="text/javascript"> new RDStationForms('formulario-lp-digital-9fa49ac25a5a9e347b78', 'UA-84554307-2').createForm();</script>
+				</div>
+			</section>
 
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
+      <footer className="bg-black py-10">
+				<div className="container mx-auto">
+					<div className="grid grid-cols-4 grid-flow-col gap-20">
+						<div>
+							<h1 class="text-white mb-5 font-besley text-lg">Fale com a gente</h1>
+							<ul class="text-sm text-white">
+								<li className="">contato@gruv.com.br</li>
+								<li className="font-bold">Brasília</li>
+								<li className="font-bold">São Paulo</li>
+							</ul>
+							<ul class="text-sm text-white  mt-10">
+								<li className="">Ouvidoria</li>
+								<li className="">Politica de Privacidade</li>
+							</ul>
+						</div>
+						<div>
+							<h1 class="text-white mb-5 font-besley text-lg">Carreira</h1>
+							<ul class="text-sm text-white">
+								<li className="">Oportunidades</li>
+								<li className="">Gruvers</li>
+								<li className="">Trabalhando na Gruv</li>
+							</ul>
+							<ul class="text-sm text-white  mt-10">
+								<li className="">O que procuramos</li>
+							</ul>
+						</div>
+						<div>
+							<h1 class="text-white mb-5 font-besley text-lg">Comunidade</h1>
+							<ul class="text-sm text-white">
+								<li className="">Gruv Insight</li>
+								<li className="">Gruvcast</li>
+							</ul>
+					</div>
+					<div>
+						<h1 class="text-white mb-5 font-besley text-lg">Comunidade</h1>
+						<ul class="text-sm text-white">
+							<li className="">Linked In</li>
+							<li className="">Instagram</li>
+							<li className="">Facebook</li>
+							<li className="">Twitter</li>
+						</ul>
+					</div>
+				</div>
+				<div className="w-full mt-20">
+					<img src="/images/lOGO-GRUV-1.png" alt="" class="mx-auto"/>
+				</div>
+				</div>
       </footer>
     </div>
   )
